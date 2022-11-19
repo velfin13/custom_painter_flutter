@@ -1,3 +1,6 @@
+// ignore_for_file: unused_import
+
+import 'package:custom_painter/src/widgets/headerBorderRedondeados.dart';
 import 'package:custom_painter/src/widgets/headerCuadrado.dart';
 import 'package:flutter/material.dart';
 
@@ -6,6 +9,6 @@ class HeaderPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: HeaderCuadrado());
+    return const Scaffold(body: HeaderBorderRedondeados());
   }
 }
